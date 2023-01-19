@@ -15,3 +15,11 @@
 11. gedit - create a file
 12. clear - clear the screen 
 13. history - prints the history
+
+
+# Let's learn more about `grep` command:
+
+1. grep "string" [filename] - this prints all the line that has the string in it.
+2. grep -v "string" [filename] - this prints all the line that donot contain the string in it.
+3. grep -n "string" [filename] - this prints all the line number where the string is present.
+4. 
