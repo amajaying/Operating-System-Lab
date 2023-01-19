@@ -16,6 +16,8 @@
 12. gedit - create a file
 13. clear - clear the screen 
 14. history - prints the history
+15. rm - remove file
+16. cat [file1] [file2] > [newFile] - to copy contents of file 1 and file 2 to newFile
 
 
 # Let's learn more about `grep` command:
@@ -23,4 +25,3 @@
 1. grep "string" [filename] - this prints all the line that has the string in it.
 2. grep -v "string" [filename] - this prints all the line that donot contain the string in it.
 3. grep -n "string" [filename] - this prints all the line number where the string is present.
-4. 
