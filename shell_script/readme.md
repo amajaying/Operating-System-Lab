@@ -1,26 +1,26 @@
 # some commands
 
 
-<!-- greater than and equal -->
--ge >=
-<!-- less than and equal -->
--le <=
-<!-- equals -->
--eq ==
+> greater than and equal <br>
+-ge >= <br>
+> less than and equal<br>
+-le <=<br>
+> equals<br>
+-eq ==<br>
 
-pwd > x
-<!-- it saves the output of pwd in x file -->
-y = `pwd`
-<!-- it saved the output of pwd in variable y -->
-expr 10 + 20
-<!-- performs integer arithmetic calculation -->
-expr 10 \* 2
-<!-- performs multiply and division -->
+pwd > x<br>
+> it saves the output of pwd in x file<br>
+y = `pwd`<br>
+> it saved the output of pwd in variable y<br>
+expr 10 + 20<br>
+> performs integer arithmetic calculation<br>
+expr 10 \* 2<br>
+> performs multiply and division<br>
+<br>
+a=10<br>
+b=20<br>
+c=`expr $a + $b`<br>
+echo $c<br>
 
-a=10
-b=20
-c=`expr $a + $b`
-echo $c
-
-c=`expr $a * $b`
+c=`expr $a * $b`<br>
 echo "multiplication of $a and $b = $c"
